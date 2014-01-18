@@ -1,0 +1,5 @@
+name: George Stefanis
+markdown: redcarpet
+pygments: true
+timezone: Greenwich
+paginate: 5

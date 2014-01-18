@@ -1,0 +1,17 @@
+---
+layout: default
+title: George Stefanis
+---
+
+<div id="home">
+  <div class="posts">
+    {% for post in site.categories['blog'] %}
+      <span class = "date">
+      	<span class = "month">{{ post.date | date:"%b" }}</span>
+      	<span class = "day">{{ post.date | date:"%d" }}</span>
+      </span>
+      <p class = "postTitle"><a href="{{ post.url }}">{{ post.title }}</a></p>
+      <p>{{ post.excerpt }}</p>
+    {% endfor %}
+  </div>
+</div>
