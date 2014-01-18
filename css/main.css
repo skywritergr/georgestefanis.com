@@ -27,9 +27,8 @@ body {
 h1 { margin-bottom: 1em; }*/
 p { margin: 1em 0; }
 
-a         { color: #00a; }
+a         { color: #00a; text-decoration: none;}
 a:hover   { color: #000; }
-a:visited { color: #a0a; }
 
 
 @font-face {
@@ -123,7 +122,7 @@ header ul.navigation {
   font-size: 22px;
 }
 
-#about ul > li { margin-left:1.4em; }
+#about ul { list-style-type: none; }
 #projects ul > li { margin-left:1.4em; }
 #about img {margin-left: 40px; float: right; zoom:0.7;}
 
