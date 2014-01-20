@@ -127,3 +127,5 @@ Here you have 2 choices, either self hosting or using GitHub. I personally use [
 If you want to host your site with GitHub you can either search Google or follow [that guide](https://help.github.com/articles/using-jekyll-with-pages). I haven't used it myself, but looks good anyway. And you are done!!
 
 Message me on [Twitter](https://twitter.com/stefanisg) with your Jekyll blogs.
+
+You can find the source code of my site on [GitHub](https://github.com/skywritergr/mySite)
