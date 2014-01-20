@@ -1,0 +1,129 @@
+---
+layout: post
+title:  "Moving on, with Jekyll"
+date:   2014-01-20
+categories: blog
+---
+The new year was full of surprises for me. The loss of a loved person can be the instigator for changes in your life. The first change came with moving on to a different house, and that is a glorious moment. Finding a house in London is a riddle these days, especially if you put in perspective the prices, location (London is huge) and friends. But finally i made it, found a place that i liked and start packing my stuff. Packing is a good opportunity for everyone to start throwing away stuff, i just had so many things that i didn't use!! And then it strike me, I need to clean my site as well, through away all the unnecessary stuff, all these things that i don't fully utilize.
+
+That's when i discovered the existence of [Jekyll](http://jekyllrb.com/), a blog aware platform made by developers, mostly for developers. What Jekyll offers is static website/blog that can be managed through git, and if you want hosted to GitHub too. That was glorious because for me it was all natural. Committing articles to my git repo and then appearing online it was exciting. No databases, no PHP (i don't like you PHP), no unnecessary stuff that collect dust in the backend. So I'll just describe how I did it, and hopefully you'll do it too.
+
+Some assumptions first though. I assume you are very confident with coding/developing/IT in general. I also assume that you have [ruby](https://www.ruby-lang.org/en/) installed on your machine. If you have all those then it's simple.
+
+##Step 1 - Installing [Jekyll](http://jekyllrb.com/)
+Go to your terminal window, navigate to your projects folder, or anywhere else you'd like to save your new site, and type the following:
+{% highlight javascript %}
+gem install jekyll
+jekyll new my-awesome-site
+cd my-awesome-site
+jekyll serve -w
+{% endhighlight %}
+
+That's it, you can now see your new site on your browser if you navigate to http://localhost:4000
+
+##Step 2 - Create more than one pages
+Jekyll documentation mentions two ways of doing that, I'll mention what i did. In the folder where you saved your blog create another folder with the name of your page. Let's assume you want to create an *About Me* page, so create an /about folder and in there create an index.html file. The file should look something like that:
+{% highlight html limenos%}
+---
+layout: default
+title: Bzzzttt
+---
+
+<div id="about">
+  Luke, I'm your father.
+</div>
+{% endhighlight %}
+The part that is between the three dashes is Markdown, telling Jekyll that this is a page, and it has a name of "Bzzzttt". Now you need to update your _layouts/default.html in order to add your new page in the menu. The _layouts/default.html should look like that:
+{% highlight html limenos %}
+<!DOCTYPE html>
+<html>
+<head>
+...
+</head>
+<body>
+...
+	<ul class="navigation">
+      <li><a class="extra" href="/">Home</a></li>
+      <li><a class="extra" href="/about">About Me</a></li>
+    </ul>
+...
+</body>
+</html>
+{% endhighlight %}
+
+##Step 3 - creating content for different pages
+The last step is to make Jekyll know where to post each post you create. To do so we'll use the categories field, of the markdown header of each article. In the index.html that's on the main folder of your blog you'll need to alter your code slightly to look something like that:
+{%  highlight html limenos %}
+{% raw %}
+---
+layout: default
+title: Main Page
+---
+
+<div id="home">
+  <div class="posts">
+    {% for post in site.categories['blog'] %}
+      <p class = "postTitle"><a href="{{ post.url }}">{{ post.title }}</a></p>
+      <p>{{ post.excerpt }}</p>
+    {% endfor %}
+  </div>
+</div>
+{% endraw %}
+{% endhighlight %}
+Note at this point that I've added the *post.excerpt* bit, around the handlebars, in order for Jekyll to display a small part of the article. if you don't want that, and you want only the titles you can remove it. Also make note that in order to make Jekyll serve only "blog" category posts we use the for in line 3. If you wanted to name your category differently, for example "awesomePosts", all you need to do is change line 3 to
+{% highlight html %}
+{% raw %}
+	{% for post in site.categories['awesomePosts'] %}
+
+{% endraw %}
+{% endhighlight %}
+
+You can replicate that logic to any other files. For example for my portfolio page, i have create a /portfolio folder, inside that an index.html file, and the file looks something like this:
+
+{% highlight html%}
+{% raw %}
+---
+layout: default
+title: Projects
+---
+
+<div id="projects">
+  <ul class="posts">
+    {% for post in site.categories['projects'] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> &mdash; {{ post.description }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endraw %}
+{% endhighlight %}
+
+and this way i tell Jekyll to present there only posts with a category name of projects. So when i want to create different posts i do it like so:
+
+{% highlight html%}
+# for portfolio posts i put that in the head of the file
+---
+layout: post
+title:  "Portfolio post 1"
+description: "I use a description as well"
+date:   2014-01-20
+categories: projects
+---
+
+# for regular blog posts
+---
+layout: post
+title:  "Blog post 1"
+date:   2014-01-20
+categories: projects
+---
+{% endhighlight %}
+
+That way you should have your Jekyll blog ready. At this point obviously you need to style it, or you may want to keep it spartan. It's up to you really.
+
+##Deploying your blog
+
+Here you have 2 choices, either self hosting or using GitHub. I personally use [DigitalOcean](https://www.digitalocean.com/?refcode=aaeb775a89f0) and they are more than awesome. I can't recomend them enough. The guide i used to deploy my code with them [is here](https://www.digitalocean.com/community/articles/how-to-deploy-jekyll-blogs-with-git). That way i just commit my changes to my git repository and they are online! I'm still amazed by that.
+
+If you want to host your site with GitHub you can either search Google or follow [that guide](https://help.github.com/articles/using-jekyll-with-pages). I haven't used it myself, but looks good anyway. And you are done!!
+
+Message me on [Twitter](https://twitter.com/stefanisg) with your Jekyll blogs.
