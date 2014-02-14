@@ -3,6 +3,7 @@ layout: post
 title:  "Social media, online friends and staying in touch"
 date:   2014-02-11
 categories: blog
+comments: true
 ---
 I remember the very first years of social media, older people went crazy about them. I was constantly listening to things like "this isn't socializing", "you are missing the point of human interaction" and most commonly "go out and meet your friends instead of talking to them through a computer". That last one is the one that was the biggest fail. What if you can't go out and meet your friends? What if your friends are miles away, into different countries, states, cities? That is the case with most of my friends.
 
