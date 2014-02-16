@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Leaving a culture, not a manager."
+title:  "People don't leave managers, they leave cultures."
 date:   2014-02-16
 categories: blog
 ---
