@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Leaving a culture, not a manager."
+date:   2014-02-16
+categories: blog
+---
+I've been reading some articles lately regarding people leaving big corporations. Specifically [Jordan Price left Apple](http://www.huffingtonpost.com/jordan-price/why-i-quit-my-job-at-apple_b_4769885.html) and also several people were claiming that [you leave managers, not companies](http://www.huffingtonpost.com/greg-savage/people-dont-leave-companies_b_4277535.html). I tend to disagree. People do leave companies "because of bad managers", but a bad manager exists because the company let him/her exist. Companies usually want people that are authoritative, get things done (no matter what the cost) and deliver (i hate the word deliver). The cost for that is that their people skills are poor.
+
+The existence of the above person, in a company just highlights the fact that this working environment has a bad culture, cares less for the employees and eventually you would have to encounter an obnoxious person anyway, if it wasn't for your manager. This is one of the main reasons why people lately tend to work more as freelancers, join start-ups or even create their own start-up. It isn't because they want to be THE Boss, but because they want their every day life to be free of unnecessary annoyances like a bad manager, or a bad working environment. They want a work/life balance that doesn't end on the working hours only. They want their job to be fulfilling. 
+
+Jordan Price leaving Apple is one of the few options he had. He was a contractor (and in the corporate world contractor = expendable), in a big corporation, with an established culture and possibly little chance to change things from his position. Could he react differently? For sure! He could have talked to the manager first and if that didn't work he could have talked to the HR. Would it made any difference? Possibly not, but then you can go, feel zero guilt and burn no bridges. These things though you have to learn by being part of the corporate culture, and many people don't want to be part of it, and that's healthy.
+
+In the end of the day you leave a working environment, no matter how impressive it looks on your CV, for the sake of your own sanity. You leave because you want to accomplish other things, you want to spend time in other tasks or because the relationship between you and your company stopped working, [it happens](https://the-pastry-box-project.net/wren-lanier/2014-February-14#). If companies want to retain talent, and attract more, they should try to keep people happy, keep them involved, award them when necessary and finally follow [Wheaton's law](http://knowyourmeme.com/memes/wheatons-law). 

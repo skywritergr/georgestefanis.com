@@ -27,7 +27,7 @@ body {
 h1 { margin-bottom: 1em; }*/
 p { margin: 1em 0; }
 
-a         { color: #00a; text-decoration: none;}
+a         { color: #00a; text-decoration: underline;}
 a:hover   { color: #000; }
 
 
