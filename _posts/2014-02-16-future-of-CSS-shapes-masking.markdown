@@ -18,7 +18,7 @@ First things first, in order to see the end result in your browser you need to e
 
 Once you done that check [my original about page](http://georgestefanis.com/about/) and then check how it looks using [CSS Shapes and Masking](http://georgestefanis.com/experiments/funky-me.html). In case you haven't install canary, this is how the about looks after applying the new CSS.
 
-![About Me]({{ site.url }}/assets/new-about.png)
+![About Me](http://georgestefanis.com/assets/new-about.png)
 
 The important bit here is how the same amount of information is being presented aesthetically better, using less space. Also note that this is an experiment, the page can look 100 times better. Here is an example of adobe using the same features to present [Alice in Wonderland](http://adobe-webplatform.github.io/Demo-for-Alice-s-Adventures-in-Wonderland/). Amazing huh?
 
