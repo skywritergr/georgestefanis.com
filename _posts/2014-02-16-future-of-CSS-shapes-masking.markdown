@@ -5,7 +5,7 @@ date:   2014-02-23
 categories: blog
 ---
 
-Last week i went to a [Meetup](http://www.meetup.com/londonweb/) and watched a great talk by [Razvan Caliman](http://razvancaliman.com/) named [The Expressive Web](http://razvancaliman.com/londonweb-2014/#/) where he talked about several upcoming CSS features. Some of them are already partially supported by modern browsers (no IE8, you are not modern) and some of them are not but are still cool features. Browsers like [Chrome Canary](https://www.google.co.uk/intl/en/chrome/browser/canary.html) or [Webkit Nightly](http://nightly.webkit.org/) support most of these features, so you can play with them there. From all the things he talked CSS Shapes and CSS Masking got my attention.
+Last week i went to a [Meetup](http://www.meetup.com/londonweb/) and watched a great talk by [Razvan Caliman](http://razvancaliman.com/), who works for adobe, named [The Expressive Web](http://razvancaliman.com/londonweb-2014/#/) where he talked about several upcoming CSS features. Some of them are already partially supported by modern browsers (no IE8, you are not modern) and some of them are not but are still cool features. Browsers like [Chrome Canary](https://www.google.co.uk/intl/en/chrome/browser/canary.html) or [Webkit Nightly](http://nightly.webkit.org/) support most of these features, so you can play with them there. From all the things he talked CSS Shapes and CSS Masking got my attention.
 
 CSS Shapes and Masking are features that, if all browsers had support for them, you could use right away in your project. For example taking a square picture and making it circular for a login button in your navigation bar can now been done via CSS without post process or any library/JS/Whatever. Also you can float text beautifully around a picture of any element with CSS Shapes, and the entire presentation of your web page goes to another level. Below I'm giving some examples how I used these features for my own website.
 
@@ -108,6 +108,6 @@ The final thing was to make the text wrap the newly created circular div correct
 	shape-outside: circle(150px at 50% 50%);
 {% endhighlight %}
 
-And that's it. Now everything works as i wanted to work and looks great. All these things are of course experimental but the image clipping works just fine on Chrome and on Safari. I will be using it for my project on the user login dropdown. So on Chrome and Safari the user image will be circular and on unsupported browsers it will look like a square (which isn't the end of the world). In the near future though all new browsers will support it. That way you can spend zero resources in image processing and instead spend them elsewhere.
+And that's it. Now everything works as i wanted to work and looks great. All these things are of course experimental but the image clipping works just fine on Chrome and on Safari. I might be using it for my project on the user login drop-down instead of the border-radius. In the future all new browsers will support that feature and many more.
 
 You can read more about new (or existing) CSS feature over to [w3.org](http://www.w3.org/Style/CSS/specs.en.html)
