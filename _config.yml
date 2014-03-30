@@ -3,3 +3,5 @@ markdown: redcarpet
 pygments: true
 timezone: Greenwich
 paginate: 5
+url:  http://www.georgestefanis.com
+description: Thoughts and experiments
