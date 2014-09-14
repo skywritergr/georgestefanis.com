@@ -19,7 +19,7 @@ Think of your home.html as your main function. Ideally in there instead of havin
 ##Shadow DOM vs the DOM
 Shadow Dom is the ability of the browser to include a subtree of DOM elements into the rendering of a document but not inside the main DOM. So in brief, the DOM is the elements you see rendered on your browser (and are part of the main DOM) and shadow DOM are elements that are not rendered but are part of the document. The image below hopefully adds some clarity to the differences between the document and the main DOM.
 
-![Document vs Main DOM]({{site.url}}/assets/document-vs-mainDOM.jpg = 150x)
+![Document vs Main DOM]({{site.url}}/assets/document-vs-mainDOM.jpg)
 
 So essentially what we're saying is that what you see on your browser is not the only elements your browser has, it keeps some of them secret. Examples of that are HTML elements that are currently used everywhere, like the date selector or the slider or the video component or anything else that HTML offers to you ready to use. If you didn't write the extra elements that come with your tag then there are stored in some shadow DOM root somewhere in the document.
 {% highlight html %}
