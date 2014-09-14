@@ -16,7 +16,7 @@ Here we'll be talking for Shadow DOM as it's one of the most intriguing concepts
 
 Think of your home.html as your main function. Ideally in there instead of having the entire HTML code, you would like to have calls to individual widgets that when you connect them together they create your final result; kinda like Lego. That makes your code more readable, easier to work on and more importantly it helps encapsulate it. Shadow DOM is the the part that does the encapsulation.
 
-###Shadow DOM vs the DOM
+##Shadow DOM vs the DOM
 Shadow Dom is the ability of the browser to include a subtree of DOM elements into the rendering of a document but not inside the main DOM. So in brief, the DOM is the elements you see rendered on your browser (and are part of the main DOM) and shadow DOM are elements that are not rendered but are part of the document. The image below hopefully adds some clarity to the differences between the document and the main DOM.
 
 ![Document vs Main DOM]({{site.url}}/assets/document-vs-mainDOM.jpg)
@@ -28,7 +28,7 @@ So essentially what we're saying is that what you see on your browser is not the
 {% endhighlight %}
 <break>
 
-###How to use it
+##How to use it
 Now that you have a basic understanding of what shadow DOM is roughly lets start doing something with it. What we're going to do is a login page widget. Normally to create a login widget you would do something like that:
 
 {% highlight html %}
@@ -171,7 +171,7 @@ So we've styled our H3 heading to be red, font size 18 pixels and its weight to 
 	shadow.appendChild(clone);
 </script>
 
-###Final thoughts
+##Final thoughts
 You should now have a basic idea of how Shadow DOM can be used to create widgets and encapsulation in general. I hope that you are a bit more excited and you can start using it to your projects. You can read more to the following links
 
 * [HTML Rocks, Shadow DOM 101](http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/)
