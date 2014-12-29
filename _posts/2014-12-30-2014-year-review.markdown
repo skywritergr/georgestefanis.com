@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "2014, my year in review."
+date:   2014-12-30
+categories: blog
+---
+
+There is no denying that 2014 was quite the year! Great things happened in the world, like Malala Yousafzai winning the Nobel price award, we landed on an asteroid, Germany won the world cup, we raised awareness for ALS with the Ice bucket challenge and it's the year that the USA and Cuba start thinking of being friends again (or not enemies at the very least). At the same time though it's the year that Ebola became a big problem, ISIS spreading terror through the middle east, Maya Angelou, Robin Williams and other died, two Malaysian Airlines airplanes got lost and Ukraine, Russia and the EU made steps back in terms of peace and friendship.
+
+In the tech world things were a bit less bleak. Google bought Nest, Microsoft turned the page by appointing Satya Nadella as the new CEO and at the same time stirring their focus to services, Apple bought Beats and also they become friends, after many decades of disagree, with IBM. On the flip side 2014 was the year we realized that we're being spied by everybody, that Brendan Eich left his CEO position from Mozilla amid controversy and also the year that we realized, again, that software is full of bugs that people can exploit them. Heartbleed was just one of many.
+
+On a personal level there were the good, the bad and the things i want to do for next year.
+
+## The Good
+
+2014 was the year that the big project i was hired to help with in Disney finally got back on track and it's now getting deployed while at the same time i managed to help my team in various ways. Also this year i worked on several personal projects like [minichat.co](http://minichat.co), a simple nodeJS app that utilizes socket.io. This app went live and even though it isn't anything really useful to the world, it is significant for me because it was the first personal project that i started and finished and put it out there. Also i worked on other projects like [performance.fail](http://performance.fail) which is a website dedicated to being slow and inefficient so people can practice on it for web performance improvements. Again another project that i finished! I also did start working on an iOS app using Swift and that's on track to be released early -ish next year, and I'm so excited about it.
+
+Learning is important for me and this year was a good one. I did get to learn the basics about Rust, a fairly new systems language by Mozilla and Swift from Apple. Even though learning these two languages is really fulfilling, for me what i really consider the real personal success if finally being able to learn and use a functional programming language like Haskell. Haskell is an amazing language and it's making me a better programmer with every line of code i write. Finally i did start revising my Algorithms and Data Structures knowledge, managed to get certified as a Scrum Master (yes i really like Agile) and registered for a three month course to learn Photoshop for next year (getting out of your comfort zone and all that). 
+
+A healthy mind on a healthy body, said the Ancient Greeks and they were right. This year i decided that i should pay more attention to my body and therefore i did start running and going to the gym more often. I managed to run 5k for the first time in my life and i also got to the point where i improved my time to run it in less that 30 minutes. Also i lost some weight and overall I fell a lot healthier. I will continue doing that.
+
+## The bad
+
+Let's be honest, it's not easy to look inside yourself and identify all the faults with your character. Nonetheless i can safely say that i screwed up in several things. First and foremost my stress levels need to be regulated and pay more attention to it. Also being the extrovert I am is scary for some people and i really need to tame my Greekiness (a.k.a I'll try to talk less and be not as loud). 
+
+On a technical level i need to work on my Computer Science theory knowledge and seriously revise things like Algorithms and Data structures (working on it), Design Patterns and general CS concepts like that. Continue improving my JavaScript knowledge with things like Web-workers, off-line capable apps and ES6 modules is on my list too. Finally i do really need to catch up with my photography skills and start working on it more. 
+
+## Things for next year
+
+I hate the term "New Years Resolutions" because it's so overused and it implies that I'll start going to the gym on January (that I'll do) and stop by mid-February (that i won't). So anyway here's my to-do list for 2015:
+
+* Run the [Ealing Half Marathon](http://www.ealinghalfmarathon.com/). So running even during the winter is a must.
+* Finish my Algorithms & Data Structures revision before the end of the year (I'm being kind with myself here)
+* Learn more about Haskell and complete a meaningful project with it (working on something already ;)
+* Build up some serious knowledge with Photoshop, and work more on my UI/UX skills
+* Visit California finally!
+* Take some nice pictures with my dSLR.
+* Learn more about meditation.
+* Read more books.
+* Spend more time with my loved ones.
+* Finish at least a couple of new projects before the end of the year.
+* Deploy my first iOS app before Q1
+* Attend more conferences, and finally
+* Submit a proposal for a call for papers in a conference (or two, or ten).
+
+I will consider 2015 a very good year if i really manage to finish the half marathon and speak in a conference. These are things that will really take me out of my comfort zone and make me feel better as a person.
+
+I hope 2014 was a blast for you and your families. Try to let all the bad things that happened to you behind because now you can't change them any more. What you can really shape is the things that can happen to you in 2015, so work on that. I will.
+
+Happy new year everybody!!
+
+George.
