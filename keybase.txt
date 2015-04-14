@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/stefanisg
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.georgestefanis.com
+  * I am stefanisg (https://keybase.io/stefanisg) on keybase.
+  * I have a public key with fingerprint 6DBC 0CFB 4DF0 805F 3C9A  33B6 9E3C 7B4E C849 6FBC
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.7"
+        },
+        "key": {
+            "fingerprint": "6dbc0cfb4df0805f3c9a33b69e3c7b4ec8496fbc",
+            "host": "keybase.io",
+            "key_id": "9E3C7B4EC8496FBC",
+            "uid": "f1b397a220320858bc81ff4e80a7fa19",
+            "username": "stefanisg"
+        },
+        "merkle_root": {
+            "ctime": 1429044427,
+            "hash": "392292394dc37a009d905831990d4925d4cbbffe93e71695b7955ba9ac9723120846c5441e4e1a7634b79880883d90ea89b983a7e2d2f5af6e536ef465326b5e",
+            "seqno": 199713
+        },
+        "service": {
+            "hostname": "www.georgestefanis.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1429044529,
+    "expire_in": 157680000,
+    "prev": "d206a79485bd5e88e0c7c756387f6bb271d9c6c358019340aaab6ec195ec2080",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owFVkm1oHEUYx+9q7qrR0EKlVlowWVA4vB6zOzM7MwmKzSUHgqm2pUX7wXNm9tnL
+2mT33NvkjOmhELT4gtX6WqgvIBZsRYtYKypJvhh8qdAWX1AKpoUmaL8UbWshvs2G
+FO182tn5Pf/5/59nnuu4KtOe7bvYduLvO09Vsl//ojJb17fscUtF3pjVPW7poQDC
+JP0K5TBY3dYOGFOyAaUg6gwjD0oPNjqXmKI1CnEjiEJDoRIrMatVTPG02A/CGsT1
+OEi1LNdTGmlfEc9HHFEfayExVq4ArJkioDkRrq+0kRyMGskVt1qLmtXAM39FPy6z
+XtJfTvlKb9mcjSwe+LbCgknHQdhBnHKlue37BDiSzJe2SMEGxEuRGgn4MgwatdTw
+MMQ7hqAaR9Fiap0EKWMTRyBCiMOMJdkYNFVYOI5wsCCexkwiJDyBKMe2EMgjwqEe
+0Ur5PggMzHYFVUxQqqSQWjAH28YXcTUlxAYCtmQuJobgHHGOjRJILpTgWDJwPMen
+0neBYhd84lLsuIqCydCAh8LImBOC2biV7uPRQEPqO+3bUrxms1mqQRTX4HLQko6G
+TXk9jpJIR0OGGUySenca/+NkrL5YBKq6JFdVQeiZ+f1/wLZBr2wNdUTRgofrQQzV
+ICUoczkyK70HRo2k5yBXMkE4VR4FzgFpphl1MWe+q5TDbE9oV2PKkS0wQVJK5YK2
+BQVtuoX+C4yLViJr6eSCWiiTkRis1pPZdW2ZbHsmn1uWvuBM+zUrLz/r/e9fnTl4
+fsXqueK2DeKP7/OFjtmNr+z/trBietXUezdvv/DNSGvZsb7u3N3vzg3sObpl7en+
+hZO33PRj76/Lz/YcPvTagZ2V018lL0+LS/nrQZ459tja6QfWdHk7txTe+jQ3Ulij
+m/dfe9uJzeua77ytmjMXW+e+sHt6VnV5+X/2nS2MLRz5LbvhiWcq87ff0bXveWvi
+9cMvzZK5mamm/dNfj/a9Wv3h53uGv9s74HzWWX6q47rl+WcnFo7fxQ9sv7R+vPz7
+8RtmPnhz98mnz70QbcObNlbzH37ZdmHy8T2VU7dODczvHf/8kclcdeJoaaZ0pnxk
+00e77s3deCicX105OPCGmt21+3z2kxfl5uJ9k3N//gs=
+=drKq
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/stefanisg
+
+==================================================================
