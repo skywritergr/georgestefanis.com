@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chrome tools 101: The Timeline tab"
+title:  "Chrome Dev tools 101: The Timeline tab"
 date:   2015-05-06
 categories: blog
 ---
