@@ -49,7 +49,7 @@ The example i saw you above is what you get if you select the causes option of t
 
 The memory option is a very useful feature that lets you know how much memory you are using in your app. What happens with browsers is that every so often they deploy the garbage collector and empty the memory for you from unused variables etc. Gone are the C days where you had to care about pointers, deallocation and other devilish stuff like that. Now the browser does all the complicated stuff. If you run the profiler with the memory option selected you should get something like that:
 
-<img src="{{site.url}}/assets/dev-tools-memory.jpg">
+<img src="{{site.url}}/assets/dev-tools-result-memory.jpg">
 
 That graph is called a sawtooth graph and what you are actually see is the browser garbage collector emptying the memory. That is the part where the graph goes down to zero. If your graph never goes down to zero it means that you have a memory leak. This is another great way to see what you are doing wrong and where.
 
