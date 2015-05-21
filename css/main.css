@@ -30,16 +30,17 @@ p { margin: 1em 0; }
 a         { color: #00a; text-decoration: underline;}
 a:hover   { color: #000; }
 
-
 @font-face {
-    font-family: 'alex_brushregular';
-    src: url('../fonts/alexbrush-regular-webfont.eot');
-    src: url('../fonts/alexbrush-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/alexbrush-regular-webfont.woff') format('woff'),
-         url('../fonts/alexbrush-regular-webfont.ttf') format('truetype'),
-         url('../fonts/alexbrush-regular-webfont.svg#alex_brushregular') format('svg');
+    font-family: 'chunkfiveroman';
+    src: url('../fonts/chunkfive-webfont.eot');
+    src: url('../fonts/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chunkfive-webfont.woff2') format('woff2'),
+         url('../fonts/chunkfive-webfont.woff') format('woff'),
+         url('../fonts/chunkfive-webfont.ttf') format('truetype'),
+         url('../fonts/chunkfive-webfont.svg#chunkfiveroman') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face {
@@ -65,7 +66,7 @@ header ul.navigation {
   display:block;
   text-align: left;
   float: right;
-  font-family: helvetica, sans-serif;
+  font-family: 'open_sanslight', helvetica, sans-serif;
   }
   header ul.navigation li {
     display: inline-block;
@@ -76,7 +77,7 @@ header ul.navigation {
   header ul.navigation li a {
     color: #888;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 15px;
   }
   header ul.navigation li a:hover { color: black; text-decoration: none; }
   header ul.navigation li a.active { font-weight:bold; color:black; }
@@ -213,12 +214,12 @@ header a {
 
 .title {
   display: inline-block;
-  font-family: "alex_brushregular", Arial, sans-serif;
+  font-family: "chunkfiveroman", Arial, sans-serif;
 }
 
 .title a {
   color: #3B3A38;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .title a:hover {
