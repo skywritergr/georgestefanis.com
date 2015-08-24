@@ -1,6 +1,6 @@
 name: George Stefanis
 markdown: redcarpet
-pygments: true
+highlighter: true
 timezone: Greenwich
 paginate: 5
 url:  http://www.georgestefanis.com
