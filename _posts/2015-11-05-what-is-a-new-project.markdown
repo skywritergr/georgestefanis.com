@@ -26,9 +26,10 @@ The important part here is the user. If you are lucky enough, the user won't eve
 * Educate and improve ourselves.
 * Deliver more to the user that they expected.
 * Ensure that future deliveries are going to be faster and more efficient.
+  
 
 ## The middle ground
 
-There is always a way to bridge the gap between developers and business people. Instead of developing on top of your huge code base spice things up. Take a small risk, trust your team, and create a new smaller service/project. Work on it and deploy it along with your big project. Even if you are sharing some resources (the database for example) and even if you don't do any TDD (because ain't no time for this!) you still did something new that checks all the boxes in my above list, while being time conscious. Worst case scenario you'll be slightly late but it's really unlikely because your team will be empowered and motivated. Congrats! You just planted a seed. Now take care of it and watch it grow to something big.
+There is always a way to bridge the gap between developers and business people. Instead of developing on top of your huge code base spice things up. Take a small risk, trust your team, and create a new smaller service/project. Work on it and deploy it along with your big project. Even if you are sharing some resources (the database for example) and even if you don't do any TDD (because ain't no time for this!) you still did something new that checks most of the boxes in my above list, while being time conscious. Worst case scenario you'll be slightly late but it's really unlikely because your team will be empowered and motivated. Congrats! You just planted a seed. Now take care of it and watch it grow to something big.
 
 That been said, I might be wrong. I'd love to hear your views.
