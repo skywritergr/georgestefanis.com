@@ -11,7 +11,7 @@ That been said, outside of algorithmic exercises I haven't found much practical 
 Here is an example of how an object might look:
 {% gist 6bada8e67f82cb836a5c %}
 
-##Recursive functions to the rescue 
+##Recursive functions to the rescue
 
 The first thing to notice is that the children have the same structure as the parents. That makes our lives easier as we can extract a function that will do all the object processing/manipulation. For traversing the objects we use recursive logic. In this example we want to toggle the watched flag. So if it’s true we want it changed to false and vice versa. Here's the function:
 
