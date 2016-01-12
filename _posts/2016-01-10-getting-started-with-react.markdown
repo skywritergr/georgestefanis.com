@@ -64,4 +64,4 @@ Want to read more? Here are some nice resources I've found. Leave more in the co
 
 * [ToDo MVC](https://github.com/tastejs/todomvc/tree/gh-pages/examples/react) is always an excellent, and familiar, example to begin from
 * [scotch.io](https://scotch.io/tutorials/learning-react-getting-started-and-concepts) tutorial series on react. Really nice resource.
-* [egghead.io](https://egghead.io/series/getting-started-with-redux) has some very nice video tutorials on redux that are really helpful learning more both about Redux and React.
+* [egghead.io](https://egghead.io/series/getting-started-with-redux) has some very nice video tutorials on redux that are really helpful learning more both about Redux and React. 
