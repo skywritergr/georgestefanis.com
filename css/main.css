@@ -309,6 +309,10 @@ header a.extra:hover {
   text-align: center;
 }
 
+.image-wrapper img{
+  width: 100%;
+}
+
 .image-wrapper .image-caption {
   color: grey;
   margin-top: $spacing-unit / 3;
