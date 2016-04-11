@@ -15,6 +15,8 @@ After googling the exact model and size of the frames I found them for the ridic
 
 So I went for it and I try to checkout and then there was that “promotion code” box.  After a bit of googling I found a promo code for -40%. After that applied i ended up paying 380$ which is around 270£. So basically I paid less that the frames alone. Neat deal! I ordered them and hoped for the best.
 
+{% include image.html img="assets/georgeGlasses.jpg" title="My new glasses" caption="My new glasses" %}
+
 ## The shocking moment
 
 Now don’t get me wrong, saving more than 50% is shocking enough (if you are someone who has spend so much money through his/her entire life you’ll know what i mean) but that wasn’t the biggest shock. The big shock was that my glasses were coming from Austin, TX. That’s Texas! My mind was blown. Technology is such an awesome, amazing, mind blowing thing.
