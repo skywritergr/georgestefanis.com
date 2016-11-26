@@ -6,4 +6,4 @@ deployment:
   push_to_server:
     branch: master
     commands:
-      - rsync -avz _site/ circleci@146.185.160.43:/var/www/georgestefanis.com
+      - rsync -avz _site/ circleci@146.185.160.43:/var/www/georgestefanis.com/
