@@ -1,6 +1,6 @@
 test:
     override:
-        - bundle exec rake test
+        - bundle
 
 deployment:
   push_to_server:
