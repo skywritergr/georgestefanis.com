@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why frameworks like ReactJS have the HTML in the JavaScript?"
-date:   2016-010-06
+date:   2016-10-06
 categories: blog
 ---
 
