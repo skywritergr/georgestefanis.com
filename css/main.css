@@ -204,7 +204,9 @@ header ul.navigation {
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em;
-  line-height: 1.5em;
+  line-height: 1.62em;
+  font-rendering: optimizeLegibility;
+  
 }
 
 header a {
