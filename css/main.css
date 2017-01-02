@@ -89,7 +89,7 @@ header ul.navigation {
 /*****************************************************************************/
 
 .date {
-  display: block;
+  /*display: block;
   float: left;
   padding: 6px 8px;
   margin-right: 8px;
@@ -98,26 +98,13 @@ header ul.navigation {
   border-radius: 4px;
   width: 30px;
   background: #E8E8E8;
-  color: #999;
-}
-.date span {
-  line-height: 1.3;
-  display: block;
-  text-align: center;
-  text-shadow: 0 1px 0 rgba(255,255,255,1);
-}
-.date .day {
-  font-weight: bold;
-  color: #777;
-  font-size: 115%;
+  color: #999;*/
 }
 
 .postTitle {
-  padding: 10px;
-}
-
-.postTitle a{
+  padding: 1% 0 1% 0;
   color: black;
+  display: block;
   text-decoration: none;
   font-weight: bold;
   font-size: 22px;
@@ -165,14 +152,14 @@ header ul.navigation {
       padding-left:0.1em;
       margin-top: 5px;
     }
-  
+
   h1,h2 { font-size: 160%; }
   h3 { font-size: 130%; }
   h4 { font-size: 115%; }
   h5, h6 { font-size: 110%; }
 
   pre, code, tt { font-size:11px; }
-  
+
   div.content { padding:3em 1em; font-size:1.1em; }
   div.content blockquote { padding-left:2.5em; margin-left:-1em; }
   div.content div.quotation blockquote { margin-left:0px; }
@@ -206,7 +193,7 @@ header ul.navigation {
   margin: 3em auto 2em;
   line-height: 1.62em;
   font-rendering: optimizeLegibility;
-  
+
 }
 
 header a {
