@@ -65,6 +65,3 @@ Overall impressions are that the laptop is a solid machine but with a few quirks
 Should you buy it? It really depends. If you are coming from a 2015 Macbook Pro then no! Don't buy it because you won't get enough performance boost. The design is first class as always but I'm not sure it's worth the steep price asked by Apple. If you are coming from an older machine (like me, coming from Macbook Air 2013) then this is a sold upgrade. The SSD is super fast, the screen is gorgeous and the CPU is very capable. If you have the money then go for it.
 
 There are still other choices out there that are worth considering. The Dell XPS 13/15 (for Linux/Windows) are gorgeous and the Microsoft Surface (Windows 10) is a good alternative too. If I had to choose something else I'd probably go with the XPS 13 Developer Edition.
-
-
-#blog-posts
