@@ -3,6 +3,7 @@ layout: post
 title:  "Cowboy Programming"
 date:   2016-04-18
 categories: blog
+comments: true
 ---
 Recently i stumbled on [this](http://www.evanmiller.org/why-im-betting-on-julia.html), fairly, old article from [Evan Miller](http://www.evanmiller.org/) talking about [Julia](http://julialang.org/) programming language. It’s a nicely written article about the strong parts of Julia and it’s worth your time. Early in his article, Evan, mentions cowboy programming as a method that most developers are using to quickly create something that works. I am doing the same and i bet you do too.
 

@@ -3,6 +3,7 @@ layout: post
 title:  "Dress code and start-up culture"
 date:   2015-08-24
 categories: blog
+comments: true
 ---
 
 When I first started looking for a job after university, almost 6 years ago, I was really concerned about how should I get dressed for an interview. Several of my closest friends helped me out and advised me to wear a suit. After all you can't err on the well dressed side of the spectrum. It sounded correct and made sense. The fact that I'm coming with a tie and a suit is a gesture of my respect towards you and your company. Simple. Fast forward 5 years and things are way more complicated!

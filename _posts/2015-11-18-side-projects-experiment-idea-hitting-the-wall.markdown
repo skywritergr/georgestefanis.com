@@ -3,6 +3,7 @@ layout: post
 title:  "Side projects: From experiment, to idea, to hitting the wall"
 date:   2015-11-18
 categories: blog
+comments: true
 ---
 
 For the past 6 months I’ve been working on a new side project. It all started when i wanted to learn a bit more about BackboneJS. Even though backbone is very mature, i didn’t have the chance in the past to work a lot with it and i wanted to see what it can do. I also started looking at offline first applications and this is how i got into PouchDB/ CouchDB ecosystem. So here I was, playing with two different technologies at the same time. And then it dawned on me, what if I combine them into something useful, but what?
@@ -31,7 +32,7 @@ On top of that I wanted to utilise my newly acquired skills in PhotoShop ( I did
 
 So after defining the things i want to experiment with and did the wireframe I was ready to go. And i did go! I did start working with BackboneJS, added [Marionette](http://marionettejs.com/) and [BackbonePouch](https://github.com/jo/backbone-pouch) in there too. At first i was slow, had all sorts of issues but following the advice from [The Martian](http://www.andyweirauthor.com/books/the-martian-tr/the-martian-hc) I did start solving one problem at the time and after a while i had solve so many problems that my app was functional. It was storing my ideas locally, which meant that I didn’t have to be online, and when i was online again it was synchronising with the CouchDB automatically. Beauty. I also wrote unit tests! Great!
 
-The next step was the CSS part. SASS is a great tool and after getting used to it (especially mixins and variables) I loved it. It made things a lot easier, especially responsive design things. I was on a roll. And then I stopped. I did hit the wall, almost the same way a marathoner hits the wall towards the end. 
+The next step was the CSS part. SASS is a great tool and after getting used to it (especially mixins and variables) I loved it. It made things a lot easier, especially responsive design things. I was on a roll. And then I stopped. I did hit the wall, almost the same way a marathoner hits the wall towards the end.
 
 ##Hitting the wall
 

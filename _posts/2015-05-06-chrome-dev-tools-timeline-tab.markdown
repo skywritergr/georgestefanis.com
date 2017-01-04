@@ -3,6 +3,7 @@ layout: post
 title:  "Chrome Dev tools 101: The Timeline tab"
 date:   2015-05-06
 categories: blog
+comments: true
 ---
 
 Most of the web developers I know choose Chrome as the browser of their choice to test their apps, debug and ultimately browse the web. There is a very good reason for that, and the reason is called Dev tools. The dev tools in chrome, along with the many addons, provide the developer with a platform ready to develop, debug and experiment at any time. If you haven't checked the dev tools yet, open your browser and press Alt+Cmd+i on Mac OS (or ctrl+shift+i if you are on windows or linux). You should be able to see something like this:
@@ -35,11 +36,11 @@ If you focused in a yellow bar you should then see something similar like the im
 
 The yellow bars in the timeline indicate JavaScript scripts that are running. Purple bars are style recalculation (your CSS being recalculated because of some reason). Green bars is the browser [rasterizing](https://en.wikipedia.org/wiki/Rasterisation) or painting the frame. You should have also noticed by now that the bars are stacked. This is my favourite part! The stacked bars indicate what part is cause what. So in our example you can see three stacked bars, 2 yellow ones and a purple one. What the browser is telling us is that the first script called a second script and that caused the browser to recalculate the style. Recalculating the style and forcing the browser to repaint can be a very expensive procedure and eventually hinder performance.
 
-The final thing that makes the flame chart so amazing is that if you click on that purple bar you'll then see what part of the script caused the style recalculation, and if you click on the script name the dev tools will take you to the exact script line. Awesome! So all you need to do now is fix it either by changing your strategy slightly or finding a different CSS selector that doesn't cause the browser to paint or do the layout again, or simply fix a code bug that you might have. In order to see what CSS properties are triggering the layout and the paint you can visit [csstriggers.com](http://csstriggers.com/). 
+The final thing that makes the flame chart so amazing is that if you click on that purple bar you'll then see what part of the script caused the style recalculation, and if you click on the script name the dev tools will take you to the exact script line. Awesome! So all you need to do now is fix it either by changing your strategy slightly or finding a different CSS selector that doesn't cause the browser to paint or do the layout again, or simply fix a code bug that you might have. In order to see what CSS properties are triggering the layout and the paint you can visit [csstriggers.com](http://csstriggers.com/).
 
 ## Summary tab
 
-The final bit in the timeline is the summary tab. The summary tab get populated once you click on one of the bars in the flame chart. The summery tab will then show you a pie chart with the different operation the browser did in the time it took for that action. In our example you can see that the pie chart is letting us know that it 1.225ms for that action to complete (depends on what bar you clicked) and is splits down the time to Scripting time, Rendering time and other. This is very useful as it gives you an insight on what takes more time. 
+The final bit in the timeline is the summary tab. The summary tab get populated once you click on one of the bars in the flame chart. The summery tab will then show you a pie chart with the different operation the browser did in the time it took for that action. In our example you can see that the pie chart is letting us know that it 1.225ms for that action to complete (depends on what bar you clicked) and is splits down the time to Scripting time, Rendering time and other. This is very useful as it gives you an insight on what takes more time.
 
 Last but now least the summary tab will give a stack trace of the scripts that executed in order to get to this point. So for example if you click on a purple bar you'll see what scripts caused the browser to recalculate the style. That way you can go ahead and change that if you feel it's necessary or evaluate if you really need to run this piece of code every time. Is it a feature or a bug?
 
@@ -58,8 +59,6 @@ The final option is paint where the dev tools are capturing graphic layer positi
 
 ## Now what?
 
-Hopefully now you know a bit more about the timeline tab and you can use it on one of your existing projects or at work and let your colleagues know about that new bug that you found. I would suggest you go ahead and play around, start clicking things and zoom in/out. It gets better once you get used to it. 
+Hopefully now you know a bit more about the timeline tab and you can use it on one of your existing projects or at work and let your colleagues know about that new bug that you found. I would suggest you go ahead and play around, start clicking things and zoom in/out. It gets better once you get used to it.
 
-Also if you want to learn more about web performance and building 60fps apps i can't suggest enough doing the Udacity course about [Browser Rendering Optimization](https://www.udacity.com/course/browser-rendering-optimization--ud860) that's build by Google. It will really make you a better developer. 
-
-
+Also if you want to learn more about web performance and building 60fps apps i can't suggest enough doing the Udacity course about [Browser Rendering Optimization](https://www.udacity.com/course/browser-rendering-optimization--ud860) that's build by Google. It will really make you a better developer.

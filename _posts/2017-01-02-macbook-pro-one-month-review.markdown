@@ -3,6 +3,7 @@ layout: post
 title:  "Macbook Pro 2016, one month review"
 date:   2017-01-02
 categories: blog
+comments: true
 ---
 **tl;dr:** _Buy it if you have a laptop before 2015, don't buy it if you have last years Macbook Pro. Also there are cheaper alternatives if you can't justify the steep price point. Overall it's really enjoyable and I like it._
 

@@ -3,9 +3,10 @@ layout: post
 title:  "What is a new project?"
 date:   2015-11-05
 categories: blog
+comments: true
 ---
 
-Recently I had a conversation regarding a project I'm working on and the potential of adding more members to the (one man) team in order to [complete it faster](https://en.wikipedia.org/wiki/The_Mythical_Man-Month). The project is on top of an existing code base and the point of it is enhancing the existing functionality. The conversation started with estimating the work that needs to be done (Epics in the Agile lingo) in man-hours. After everything was estimated I mentioned that the estimated time should be multiplied by 2 because the new members will have no knowledge of the code base and they will need time to catch-up. I also mentioned that they won't be working on a new project. 
+Recently I had a conversation regarding a project I'm working on and the potential of adding more members to the (one man) team in order to [complete it faster](https://en.wikipedia.org/wiki/The_Mythical_Man-Month). The project is on top of an existing code base and the point of it is enhancing the existing functionality. The conversation started with estimating the work that needs to be done (Epics in the Agile lingo) in man-hours. After everything was estimated I mentioned that the estimated time should be multiplied by 2 because the new members will have no knowledge of the code base and they will need time to catch-up. I also mentioned that they won't be working on a new project.
 
 Suddenly there was tension!
 

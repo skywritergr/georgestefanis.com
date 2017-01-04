@@ -3,6 +3,7 @@ layout: post
 title:  "The Case of recursive functions in Javascript"
 date:   2015-12-14
 categories: blog
+comments: true
 ---
 Recursive functions are awesome! It’s one of those concepts that make software development magical. The ability to use a function, inside itself even before you complete the implementation, is mind blowing. Also recursive functions are one of the strong points of functional programming, and let's not forget that Javascript is a functional language.
 
