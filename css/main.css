@@ -281,12 +281,16 @@ header a.extra:hover {
   background-color: #333;
 }
 
-.image-wrapper {
+.image-wrapper, .image-wrapper-md {
   text-align: center;
 }
 
 .image-wrapper img{
   width: 100%;
+}
+
+.image-wrapper-md img{
+  width: 50%;
 }
 
 .image-wrapper .image-caption {
