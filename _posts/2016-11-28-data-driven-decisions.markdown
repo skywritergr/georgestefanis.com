@@ -5,7 +5,7 @@ date:   2016-11-28
 categories: blog
 comments: true
 ---
-For the past 10 years of my career i’ve been extremely lucky as I worked with some very talented people. In several occasions i felt inspired by the talent my colleagues possessed. Still remember the first female intern i worked with and how good she was (she is thriving now), that technical architect in my first job that had all the answers and my amazing colleagues at TransferWise now.
+For the past 10 years of my career i’ve been extremely lucky as I worked with some very talented people. In several occasions i felt inspired by the talent my colleagues possessed. Still remember the first intern i worked with and how good she was (she is thriving now), that technical architect in my first job that had all the answers and my amazing colleagues at TransferWise now.
 
 The thing that i haven’t had though, in such extend, is the amount of driven people around me. Here at TransferWise everyone is really driven and really focused on giving the best possible experience to our users. Nothing goes out without thorough testing. No decision is left unscrutinised and there is no lack of support either. The one thing though that surprised me the most is how data driven the company is. There is all sorts of data for everything. User journeys, workflows, happy paths, new interactions, everything! People really like data.
 
