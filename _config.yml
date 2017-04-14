@@ -3,6 +3,7 @@ markdown: redcarpet
 highlighter: true
 timezone: Greenwich
 paginate: 10
+future: true
 paginate_path: "/page:num/"
 url:  https://www.georgestefanis.com
 description: Thoughts and experiments
