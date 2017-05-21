@@ -9,3 +9,5 @@ url:  https://www.georgestefanis.com
 description: Thoughts and experiments
 gems: [jekyll-gist, jekyll-paginate]
 keep_files: ['.well-known/acme-challenge']
+sass:
+  style: compressed

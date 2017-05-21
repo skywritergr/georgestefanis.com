@@ -3,12 +3,12 @@ layout: default
 title: George Stefanis
 ---
 
-<div id="home">
+<div class="home site-width">
   <div class="posts">
     {% for post in paginator.posts %}
     {% unless post.categories contains 'projects' %}
-      <a class="postTitle" href="{{ post.url }}">{{ post.title }}</a>
-      <span class = "date">{{ post.date | date:"%d-%b-%Y" }}</span>
+      <h2><a class="postTitle header-link" href="{{ post.url }}">{{ post.title }}</a></h2>
+      <span>{{ post.date | date:"%d-%b-%Y" }}</span>
       <p>{{ post.excerpt }}</p>
       {% endunless %}
     {% endfor %}

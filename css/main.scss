@@ -1,0 +1,219 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+$site-width: 60%;
+$base-color: #FFFFFA;
+$secondary-color: #050000;
+$third-color:#E0F3FF;
+$header-font: 'Raleway', sans-serif;
+$main-text-font: 'Lato', sans-serif;
+$line-height-size: 1.65em;
+$text-font-size: 1.125em;
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $base-color;
+}
+
+h1, h2, h3, h4 {
+  color: $secondary-color;
+}
+
+header {
+  order: 1;
+  margin-bottom: 7%;
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: $header-font;
+
+  h1 {
+    display: inline-block;
+    margin: 0;
+    font-size: $text-font-size + 0.5;
+    font-weight: bolder;
+    letter-spacing: -0.02em;
+
+    a,
+    a:visited {
+      text-decoration: none;
+      color: $secondary-color;
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    flex-basis: 25%;
+
+    li {
+      display: block;
+      padding-left: 9%;
+      margin-bottom: 5%;
+      float: left;
+
+      a {
+        text-decoration: none;
+        color: $secondary-color;
+      }
+
+      a:hover {
+        border-bottom: 2px solid $third-color;
+      }
+    }
+  }
+}
+
+.home {
+  order: 2;
+
+  .posts {
+    font-family: $main-text-font;
+
+    a {
+      text-decoration: none;
+      color: $secondary-color;
+    }
+
+    h2:first-child {
+      margin-top: 0;
+    }
+
+    h2 {
+      margin-bottom: 1%;
+      margin-top: 5%;
+      font-family: $header-font;
+      letter-spacing: 0.025em;
+      font-size: $text-font-size + 0.25;
+    }
+
+    p {
+      font-size: $text-font-size;
+      line-height: $line-height-size;
+    }
+
+    span {
+      font-weight: 100;
+      font-style: italic;
+      color: $secondary-color;
+    }
+  }
+
+  .pagination {
+    float: right;
+
+    .previous, .next {
+      font-weight: bold;
+    }
+  }
+}
+
+section {
+  order: 2;
+  font-family: $main-text-font;
+  font-style: normal;
+  line-height: $line-height-size;
+  text-align: justify;
+
+  h2:first-child {
+    font-weight: bolder;
+    font-style: normal;
+  }
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  h2, h3, h4 {
+    font-family: $header-font;
+    font-weight: lighter;
+    font-style: italic;
+    letter-spacing: 0.025em;
+  }
+
+  p {
+    font-size: $text-font-size;
+    font-weight: 100;
+
+    a, a:visited {
+      text-decoration: none;
+      color: $secondary-color;
+      border-bottom: 2px dashed $third-color;
+    }
+  }
+
+  blockquote {
+    border-left: $third-color;
+    border-left-style: solid;
+    padding-left: 1%;
+  }
+
+  strong {
+    font-size: $text-font-size + 0.1;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .image-wrapper, .image-wrapper-md {
+    text-align: center;
+    color: $secondary-color;
+    font-size: medium;
+  }
+
+  .meta {
+    margin-top: 0;
+    color: $secondary-color;
+  }
+}
+
+.footer {
+  order: 4;
+  margin: 5% 0 1% 0;
+}
+
+.comments {
+  order: 3;
+}
+
+.main-about {
+  order: 2;
+  font-family: $main-text-font;
+
+  div {
+    display: block;
+    float: left;
+  }
+
+  .about{
+    img {
+      max-width: 30%;
+      margin-left: 5%;
+      float: right;
+    }
+
+    p {
+      font-size: $text-font-size;
+      float: left;
+      line-height: $line-height-size;
+      width: 65%;
+      margin: 0;
+    }
+  }
+}
+
+// Helper Classes
+.site-width {
+  width: $site-width;
+}
+
+.header-link {
+  text-decoration: none;
+
+}
