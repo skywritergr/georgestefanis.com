@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cultural fit is killing your company. Hiring for diversity."
+title: "The problem with outsourcing"
 date: 2017-05-27
 categories: blog
 comments: true
