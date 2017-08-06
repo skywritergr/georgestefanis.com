@@ -9,9 +9,9 @@ Back in the early 90s a group of experts, led by sociologist  James Baron looked
 
 They categorised these firms in three basic categories :
 
-	* Companies that hired people based on professional skills. These are people that are highly skilled on a specific field. Do you want a JavaScript developer? Hire one with 4+ years of experience. Data analyst? Someone with extensive experience etc.
-	* Companies that hired people that were superstars. These are you typical super talented people that can nail pretty much everything they get their hands on. You normally see a lot of them in Silicon Valley in big companies like Facebook, Google etc.
-	* Companies that hired based on cultural fit. These are companies that are looking for like minded people that can quickly fit in the culture of the company and move the needle forward towards a certain direction and a common goal.
+* Companies that hired people based on professional skills. These are people that are highly skilled on a specific field. Do you want a JavaScript developer? Hire one with 4+ years of experience. Data analyst? Someone with extensive experience etc.
+* Companies that hired people that were superstars. These are you typical super talented people that can nail pretty much everything they get their hands on. You normally see a lot of them in Silicon Valley in big companies like Facebook, Google etc.
+* Companies that hired based on cultural fit. These are companies that are looking for like minded people that can quickly fit in the culture of the company and move the needle forward towards a certain direction and a common goal.
 
 Then the researchers analysed the performance of the companies and how much success they had (or hadn't). It turned out that the companies that hired based on cultural fit failed less than everyone else! "Great, we are doing this. We will be successful" i hear you say. Sure, you might but before you get too happy I need to tell you what else the researchers found. The researchers found that from all the companies going, eventually, public the ones hiring for cultural fit had the worst performance. As Marshall Goldsmith said [**"What got you here won't take you there"**](https://www.amazon.co.uk/dp/B0041G68WS/)
 
