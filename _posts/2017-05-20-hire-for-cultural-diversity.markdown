@@ -5,9 +5,10 @@ date: 2017-05-20
 categories: blog
 comments: true
 ---
-Back in the early 90s a group of experts, led by sociologist  James Baron looked through various companies and followed them until the dot com crash in the dawn for the 21st century.  They were focus more around how the companies were managing to grow and the strategies they followed.
+Back in the early 90s a group of experts, led by sociologist  James Baron looked through various companies and followed them until the dot com crash in the dawn for the 21st century.  They did focus mostly around, how the companies were managing to grow and the strategies they followed.
 
 They categorised these firms in three basic categories :
+
 	* Companies that hired people based on professional skills. These are people that are highly skilled on a specific field. Do you want a JavaScript developer? Hire one with 4+ years of experience. Data analyst? Someone with extensive experience etc.
 	* Companies that hired people that were superstars. These are you typical super talented people that can nail pretty much everything they get their hands on. You normally see a lot of them in Silicon Valley in big companies like Facebook, Google etc.
 	* Companies that hired based on cultural fit. These are companies that are looking for like minded people that can quickly fit in the culture of the company and move the needle forward towards a certain direction and a common goal.
