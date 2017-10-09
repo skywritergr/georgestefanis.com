@@ -9,7 +9,7 @@ Recently I was on a trip to New York. One of my first destinations was the Museu
 
 In there I had the opportunity to see amazing exhibits like sculptures from the amazing Louise Bourgeois, paintings from Pablo Picasso and one of my favourites [Giorgio de Chirico](https://en.wikipedia.org/wiki/Giorgio_de_Chirico) .  While these artists could have made MoMA my most memorable destination, this time around I found out about  [László Moholy-Nagy - Wikipedia](https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Moholy-Nagy)
 
-![Telephone pictures]({{site.url}}/assets/maholy-nagy-2.jpg)
+![Telephone pictures]({{site.url}}/assets/maholy-nagy-1.jpg)
 
 Maholy-Nagy was a Hungarian painter and photographer associated with the Bauhaus movement. He created a lot of remarkable work, during his lifetime, but there is a series of  exhibits from his work that captured my attention. It's the picture above. These are 3 exhibits named EM1, EM2 and EM3, each one smaller than the other. They only work together.
 
@@ -29,4 +29,4 @@ Maholy-Nagy died in 1946 in Chicago from leukaemia. If you ever find yourself to
 
 *More info:* [László Moholy-Nagy. EM 2 (Telephone Picture). 1923 | MoMA](https://www.moma.org/collection/works/78747)
 
-![Laszlo Maholy-Nagy]({{site.url}}/assets/maholy-nagy-1.jpg)
+![Laszlo Maholy-Nagy]({{site.url}}/assets/maholy-nagy-2.jpg)
