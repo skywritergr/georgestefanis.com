@@ -8,7 +8,7 @@ $third-color:#E0F3FF;
 $header-font: 'Raleway', sans-serif;
 $main-text-font: 'Lato', sans-serif;
 $line-height-size: 1.65em;
-$text-font-size: 1.375em;
+$text-font-size: 1.125em;
 
 body {
   display: flex;
@@ -34,7 +34,7 @@ header {
   h1 {
     display: inline-block;
     margin: 0;
-    font-size: $text-font-size + 0.5;
+    font-size: $text-font-size + 0.6;
     font-weight: bolder;
     letter-spacing: -0.02em;
 
@@ -88,7 +88,7 @@ header {
       margin-top: 5%;
       font-family: $header-font;
       letter-spacing: 0.025em;
-      font-size: $text-font-size + 0.25;
+      font-size: $text-font-size + 0.45;
     }
 
     p {
